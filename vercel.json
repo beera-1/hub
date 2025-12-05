@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "functions": {
+    "bypaas/hubcloud.php": {
+      "runtime": "python3.11"
+    }
+  },
+  "routes": [
+    {
+      "src": "/bypaas/hubcloud.php",
+      "dest": "/bypaas/hubcloud.php"
+    }
+  ]
+}
